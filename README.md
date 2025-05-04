@@ -79,3 +79,7 @@ Browser Extension: Chrome Extension (Manifest V3, JavaScript)
 Conclusion:
 
 This project is a powerful demonstration of full-stack development and browser extension integration. It showcases skills in JavaScript, backend API handling, database management, Chrome Extension development, and frontend visualization. The Web Time Tracker not only serves a useful personal purpose but also has potential for wider use in productivity tools and digital well-being platforms.
+
+OUTPUT :
+
+![Image](https://github.com/user-attachments/assets/fd04d54d-ffa0-43a8-a798-d700bc902783)
