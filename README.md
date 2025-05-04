@@ -25,13 +25,13 @@ The Chrome Extension uses service workers and event listeners to track user acti
 2. Backend (Node.js + Express):
 The backend receives time-tracking data from the extension and stores it in a MongoDB database. Each entry includes the domain name, the duration of time spent, and a timestamp. The backend also includes classification logic to label domains as productive or unproductive, which can be modified to suit individual users or organizational requirements.
 
-RESTful APIs are provided for:
+  RESTful APIs are provided for:
 
-Posting time logs
+  Posting time logs
 
-Retrieving productivity summaries
+  Retrieving productivity summaries
 
-Fetching daily and weekly usage data
+  Fetching daily and weekly usage data
 
 3. Database (MongoDB):
 MongoDB is used to store the structured data collected from the browser extension. Collections are designed to hold domain names, timestamps, durations, and productivity classification. The database allows for aggregation queries to calculate total productive/unproductive time and weekly reports efficiently.
